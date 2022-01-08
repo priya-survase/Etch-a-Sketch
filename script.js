@@ -74,7 +74,7 @@ function fill(){
 rainbowbtn.addEventListener('click', rbow);
 function rbow(){
     
-    alert("hii");
+    //alert("hii");
     cells.forEach(cell => cell.addEventListener('mouseenter', function(){
         var colors = ["violet", "indigo", "blue", "green", "yellow", "orange", "red"];
         var color = colors[Math.floor(Math.random()*7)];
