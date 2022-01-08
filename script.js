@@ -64,10 +64,11 @@ const eraser = document.getElementById('eraser');
 const reset = document.getElementById('resetbtn');
 
 
-colorpicker.addEventListener('click', fill);
+colorpicker.addEventListener('change', fill);
 function fill(){
     cells.forEach(cell => cell.addEventListener('mouseenter', function(){
         this.style.backgroundColor = colorpicker.value;
+        this.style.outline = "none";
     }));
 }
 
