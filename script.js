@@ -1,7 +1,7 @@
 //slider, creating and changing grid
 let grid = document.getElementById("container");
-grid.style.height = "576px";
-grid.style.width = "576px";
+grid.style.height = "36rem";
+grid.style.width = "36rem";
 let cells=[]; let rows=[];
 
 const gridsize = document.getElementById('pixelrange');
@@ -13,14 +13,14 @@ function changegrid(){
     deletegrid();
     pixelnum = -1 * gridsize.value;
     let num = pixelnum;
-    let height = 576/num;
-    let width = 576/num;
+    let height = 36/num;
+    let width = 36/num;
 
     for(let j=0; j<num; j++){
         let row = document.createElement('div');
         rows.push(row);
         row.setAttribute("class", "row");
-        row.style.width = "576px";
+        row.style.width = "36em";
         row.style.height = "auto";
         grid.appendChild(row);
     
@@ -28,8 +28,8 @@ function changegrid(){
             let cell = document.createElement('div');
             cells.push(cell);
             cell.setAttribute("class", "cell");
-            cell.style.height = `${height}px`;
-            cell.style.width = `${width}px`;
+            cell.style.height = `${height}em`;
+            cell.style.width = `${width}em`;
             row.appendChild(cell);
             
         }
