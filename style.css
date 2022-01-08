@@ -66,3 +66,10 @@ label{
 .cell{
     outline: 0.5px solid #f2f2f2;
 }
+#footer{
+    font-size: 0.8rem;
+    
+}
+a{
+    color: white;
+}
