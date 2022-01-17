@@ -7,7 +7,8 @@
     width: 100%;
     height: auto;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
+    text-decoration: underline;
     
 }
 #workspace{
@@ -26,8 +27,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 36em;
-    width: 40em;
+    height: 40em;
+    width: 30em;
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -72,4 +73,7 @@ label{
 }
 a{
     color: white;
+}
+i{
+    font-size: large;
 }
